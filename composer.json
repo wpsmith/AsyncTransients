@@ -1,0 +1,33 @@
+{
+  "name": "wpsmith/asynctransients",
+  "description": "WordPress Async Transients.",
+  "keywords": [
+    "wordpress",
+    "widgets"
+  ],
+  "homepage": "https://github.com/wpsmith/AsyncTransients",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Travis Smith",
+      "email": "t@wpsmith.net",
+      "homepage": "http://wpsmith.net/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wpsmith/AsyncTransients/issues"
+  },
+  "require": {
+    "php": ">=5.2.4",
+    "wpsmith/wps-singleton": "0.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPS\\AsyncTransients\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
