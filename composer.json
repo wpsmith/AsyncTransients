@@ -3,7 +3,7 @@
   "description": "WordPress Async Transients.",
   "keywords": [
     "wordpress",
-    "widgets"
+    "transients"
   ],
   "homepage": "https://github.com/wpsmith/AsyncTransients",
   "license": "GPL-2.0+",
@@ -20,8 +20,7 @@
   },
   "require": {
     "php": ">=5.2.4",
-    "wpsmith/singleton": "^0.0.2
-    "
+    "wpsmith/singleton": "^0.0.2"
   },
   "autoload": {
     "psr-4": {
