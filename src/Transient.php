@@ -44,7 +44,7 @@ if ( ! class_exists( 'WPS\AsyncTransients\Transient' ) ) {
 		 *
 		 * @var array
 		 */
-		protected $queue;
+		protected $queue = array();
 
 		/**
 		 * Transients prefix.
@@ -57,7 +57,6 @@ if ( ! class_exists( 'WPS\AsyncTransients\Transient' ) ) {
 		 * Transient constructor.
 		 */
 		public function __construct() {
-			$this->queue = array();
 			$this->setup();
 		}
 
