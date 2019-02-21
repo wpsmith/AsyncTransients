@@ -8,7 +8,7 @@
  *
  * @package    WPS\Functions
  * @author     Travis Smith <t@wpsmith.net>
- * @copyright  2015-2018 Travis Smith
+ * @copyright  2015-2019 Travis Smith
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License v2
  * @link       https://github.com/wpsmith/WPS
  * @version    1.0.0
@@ -16,7 +16,7 @@
  */
 
 namespace WPS;
-use WPS\AsyncTransients\Transient;
+use WPS\WP\AsyncTransients\Transient;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
