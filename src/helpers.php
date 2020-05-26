@@ -6,16 +6,16 @@
  * Any modifications to or software including (via compiler) GPL-licensed code must also be made
  * available under the GPL along with build & install instructions.
  *
- * @package    WPS\Functions
+ * @package    WPS\WP\Functions
  * @author     Travis Smith <t@wpsmith.net>
- * @copyright  2015-2019 Travis Smith
+ * @copyright  2015-2020 Travis Smith
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License v2
  * @link       https://github.com/wpsmith/WPS
  * @version    1.0.0
  * @since      0.1.0
  */
 
-namespace WPS;
+namespace WPS\WP;
 use WPS\WP\AsyncTransients\Transient;
 
 // Exit if accessed directly.
